@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.announcements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+body{
+    display: flex;
+}
+.dashboard{
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+}
+.dashboard a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.dashboard a:hover{
+    color:#b66078;
+}
+.users{
+    display:flex;
+    flex-direction:row;
+}
+.left{
+    background:pink;
+    padding:1%;
+    width:100%;
+}
+
+.content{
+    padding:1%;
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+}
+.canvas{
+    width:20%
+}
